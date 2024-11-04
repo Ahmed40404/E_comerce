@@ -1,0 +1,22 @@
+﻿<Window x:Class="Group_3.Home_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Home_Page" Height="450" Width="800">
+    <Grid Background="#ADD9F4">
+        <Button x:Name="MenuButton" Background="#FF76B1E8" Content="List of Menu" FontSize="15" 
+                HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="34" Width="120"
+                Click="MenuButton_Click"/>
+
+        <ListBox x:Name="MenuListBox" Visibility="Collapsed" HorizontalAlignment="Left" Margin="10,50,0,0" Width="200" Height="100">
+            <ListBoxItem Content="Electrical Tools" />
+            <ListBoxItem Content="Cleaning Products" />
+            <ListBoxItem Content="Baked Goods" />
+        </ListBox>
+
+        <StackPanel x:Name="ProductsPanel" HorizontalAlignment="Left" Margin="220,50,0,0">
+           
+        </StackPanel>
+
+        <Button x:Name="CartButton" Content="Go to Cart" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="100" Click="CartButton_Click"/>
+    </Grid>
+</Window>

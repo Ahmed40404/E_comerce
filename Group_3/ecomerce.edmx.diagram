@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="48e9e959034148f0b1cf1f9b9c2291d3" Name="Diagram1">
+        <EntityTypeShape EntityType="ecomerceModel.order_details" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomerceModel.order" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomerceModel.payment" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomerceModel.product" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomerceModel.shopping_cart" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomerceModel.shopping_carts" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecomerceModel.user" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="ecomerceModel.FK__order_det__order__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__order_deta__p_id__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__orders__user_id__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__payment__order_i__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__shopping___produ__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__shopping___produ__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__shopping___user___31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="ecomerceModel.FK__shopping___user___36B12243" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
